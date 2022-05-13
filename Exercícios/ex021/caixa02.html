@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: gray;
+            margin: 0px;
+        }
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+    
+        nav{
+            background-color: rgb(97, 107, 117);
+            padding: 05px;
+        }
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.285);
+        }
+        nav > a:hover {
+            text-decoration: underline;  
+        }
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+        main > h2 {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        article {
+            background-color: rgba(173, 173, 173, 0.9);
+            padding: 02px;
+            
+        }
+        article > aside {
+            background-color: rgba(91, 91, 91, 0.637);
+        }
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 04px;
+            margin: 01px;
+            margin: 10px 10px 10px;
+        }
+        footer > p {
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+    <h1>Meu site</h1>
+    <nav>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+    </nav>
+    </header>
+    <main>
+        <h2>Esportes Política Tecnologia</h2>
+        <section id="assuntos">
+
+        </section>
+        <section id="noticias">
+        <article>
+           
+            <h2>Notícia sobre o Brasil</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed hic in accusantium unde nisi sunt, assumenda fugit illum pariatur laborum voluptates molestias reprehenderit officiis enim amet explicabo inventore corrupti. Laudantium.</p>
+            <aside>
+                <p>Artigo escrito por Rafael.</p>
+            </aside>
+        </article>   
+
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo CursoemVídeo</p>
+    </footer>
+</body>
+</html>
